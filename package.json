@@ -1,0 +1,19 @@
+{
+  "name": "rocket-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./built/css/style.css --watch",
+    "prettier": "npx prettier --write */**.html"
+  },
+  "keywords": [
+    "237"
+  ],
+  "author": "STANZY-DEV",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.3.0",
+    "tailwindcss": "^3.3.2"
+  }
+}
